@@ -1,0 +1,60 @@
+.bank-details-container{
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+
+.bank-details-container .no-details-msg{
+  color: silver;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.bank-details-container button{
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #FF671F;
+  font-size: 25px;
+  font-weight: bold;;
+  width: 316px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.addBankAccount-form{
+width: 400px;
+height: 400px;
+margin-left: 250px;
+}
+
+.addBankAccount-form input{
+  width: 300px;
+  height: 50px;
+  border: 2px solid silver;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 20px;
+}
+
+.addBankAccount-form button{
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #FF671F;
+  font-size: 25px;
+  font-weight: bold;;
+  width: 316px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.bank-details{
+  width: 100%;
+  height: 450px;
+  text-align:center;
+  color: white;
+}

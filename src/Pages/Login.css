@@ -1,0 +1,187 @@
+.login-container{
+
+  width: auto;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form{
+  width: 350px;
+  height: auto;
+  max-height: 400px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 6px;
+
+}
+
+/* login form options style */
+.login-form-options{
+  text-align: center;
+  line-height: 50px;
+}
+
+
+
+.login-form-options button{
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #FF671F;
+  font-size: 25px;
+  font-weight: bold;;
+  width: 316px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 10px;
+
+}
+
+.login-form-options p{
+  font-size: 18px;
+}
+.login-form-options p b{
+  color: blue;
+  cursor: pointer;
+}
+
+
+
+/* login email style */
+
+.login-email{
+  text-align: center;
+  line-height: 0px;
+  transition: 1s ease-out;
+}
+
+.login-email .back-icon{
+ cursor: pointer;
+  margin-right:  280px;
+  font-size: 30px;
+  margin-top: 10px;
+
+}
+
+.login-email .back-icon:hover{
+  color: red;
+}
+
+.login-email input{
+  width: 300px;
+  height: 50px;
+  border: 2px solid silver;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.login-email h1{
+
+}
+
+.login-email p{
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.login-email input:focus{
+  outline: none;
+  border-color: #FF671F;
+}
+.login-email .email-error{
+  color: red;
+
+
+
+}
+.login-email .password-error{
+  color: red;
+}
+
+.login-email button{
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #FF671F;
+  font-size: 25px;
+  font-weight: bold;;
+  width: 316px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+
+/* login mobile style */
+
+
+.login-mobile{
+  text-align: center;
+  line-height: 0px;
+}
+
+.login-mobile .back-icon{
+ cursor: pointer;
+  margin-right:  280px;
+  font-size: 30px;
+  margin-top: 10px;
+
+}
+
+.login-mobile .back-icon:hover{
+  color: red;
+}
+
+.login-mobile input{
+  width: 300px;
+  height: 50px;
+  border: 2px solid silver;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 6px;
+  outline: none;
+
+  margin-top: 10px;
+}
+
+.login-mobile h1{
+
+}
+
+.login-mobile p{
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.login-mobile input:focus{
+  outline: none;
+  border-color: #FF671F;
+}
+.login-mobile .mobile-error{
+  color: red;
+
+
+
+}
+.login-mobile .password-error{
+  color: red;
+}
+
+
+
+.login-mobile button{
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #FF671F;
+  font-size: 25px;
+  font-weight: bold;;
+  width: 316px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 20px;
+}

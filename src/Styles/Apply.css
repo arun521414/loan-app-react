@@ -1,0 +1,115 @@
+.apply-container{
+  display: flex;
+  overflow-x: hidden;
+
+}
+
+
+.steps-side-nav h3{
+  font-size: 22px;
+  background-color: black;
+  color: white;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: silver;
+  position: relative;
+  top: -40px;
+}
+
+.steps-side-nav h4{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+
+.kycform-container{
+  width: 100%;
+  height: 510px;
+}
+
+.kycform-container .kyc-form{
+  display: flex;
+  justify-content: space-around;
+}
+
+.kyc-form .image-input{
+
+  border-radius: 14px;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.kyc-form button{
+  width: 100px;
+  position:relative;
+  height: 50px;
+  top: 400px;
+  right: 560px;
+  border: none;
+  background-color:  #FF671F;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.kyc-form h2{
+  position: relative;
+  top: 300px;
+  left: 110px;
+  color: white;
+}
+.kyc-form span{
+  color: white;
+  position: relative;
+  top: 150px;
+  left: 100px;
+  font-size: 20px;
+}
+
+.kyc-form img{
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  z-index: 1;
+  border: none;
+  border-radius: 6px;
+}
+
+.eligible-loan-container{
+  width: 100%;
+  height: 450px;
+}
+.eligible-loan-container{
+  text-align: center;
+
+}
+
+.eligible-loan-container .eligible-msg{
+  color: white;
+}
+.eligible-loan-container .eligible-msg b{
+  color:  #FF671F;
+}
+
+.eligible-loan-container .loan-details{
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  width: 400px;
+  height: 350px;
+  margin-left: 250px;
+  background: white;
+  border-radius: 8px;
+  line-height: 40px;
+}
+.eligible-loan-container .not-eligible-msg{
+  color: white;
+  margin-top: 100px;
+}
